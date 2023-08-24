@@ -25,3 +25,43 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.navigation{
+  height: 60px;
+  background: #fff;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.side-nav{
+  padding: 1rem 2rem;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  min-height: 1200px;
+}
+
+.content{
+  padding:2rem;
+}
+
+.avatar{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background:#27D0D9;
+  border-radius:100%;
+  flex-shrink: 0;
+}
+
+.sub-nav{
+  padding: 0.5rem;
+
+}
+.active-nav{
+  background: #EAFEFF;
+  padding: 0.5rem;
+  color: #068E95;
+}
